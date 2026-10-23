@@ -1,0 +1,14 @@
+
+{
+  "manifest_version": 3,
+  "name": "Coronavirus Immunity",
+  "version": "0.1.0",
+  "description": "Highlights the word coronavirus on webpages.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
